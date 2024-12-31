@@ -4,81 +4,92 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Keyboard</title>
-	<!--<link rel="stylesheet" href="black_style.css">-->
-	<link rel="stylesheet" href="white_style.css"> 
+	<link rel="stylesheet" href="black_style.css">
+	<!-- <link rel="stylesheet" href="white_style.css">  -->
 </head>
 <body>
+	<input class="input" type="text">
+	<div class="light-dark-btn"></div>
 	<div class="container">
-		<div class="row one">
-			<button>~</button>
-			<button>1</button>
-			<button>2</button>
-			<button>3</button>
-			<button>4</button>
-			<button>5</button>
-			<button>6</button>
-			<button>7</button>
-			<button>8</button>
-			<button>9</button>
-			<button>0</button>
-			<button>-</button>
-			<button>=</button>
-			<button class="back">delete</button>
-		</div>
-		<div class="row two">
-			<button class="tab">tab</button>
-			<button>Q</button>
-			<button>W</button>
-			<button>E</button>
-			<button>R</button>
-			<button>T</button>
-			<button>Y</button>
-			<button>U</button>
-			<button>I</button>
-			<button>O</button>
-			<button>P</button>
-			<button>[</button>
-			<button>]</button>
-			<button class="slace">\</button>
-		</div>
-		<div class="row three">
-			<button class="cap">caps lock</button>
-			<button>A</button>
-			<button>S</button>
-			<button>D</button>
-			<button>F</button>
-			<button>G</button>
-			<button>H</button>
-			<button>J</button>
-			<button>K</button>
-			<button>L</button>
-			<button>;</button>
-			<button>'</button>
-			<button class="ent-btn">return</button>
-		</div>
-		<div class="row four">
-			<button class="shift">shift</button>
-			<button>Z</button>
-			<button>X</button>
-			<button>C</button>
-			<button>V</button>
-			<button>B</button>
-			<button>N</button>
-			<button>M</button>
-			<button>,</button>
-			<button>.</button>
-			<button>/</button>
-			<button class="shift">shift</button>
-		</div>
-		<div class="row five">
-			<button class="other">fn</button>
-			<button class="other">control</button>
-			<button class="other">option</button>
-			<button class="other">comm</button>
-			<button class="space">Space</button>
-			<button class="other">comm</button>
-			<button class="other">option</button>
+		<div id="keyboard">
+			<div class="row">
+				<button class="keys">~</button>
+				<button class="keys">1</button>
+				<button class="keys">2</button>
+				<button class="keys">3</button>
+				<button class="keys">4</button>
+				<button class="keys">5</button>
+				<button class="keys">6</button>
+				<button class="keys">7</button>
+				<button class="keys">8</button>
+				<button class="keys">9</button>
+				<button class="keys">0</button>
+				<button class="keys">-</button>
+				<button class="keys">=</button>
+				<button class="keys back">delete</button>
+			</div>
+			<div class="row">
+				<button class="keys tab">tab</button>
+				<button class="keys">Q</button>
+				<button class="keys">W</button>
+				<button class="keys">E</button>
+				<button class="keys">R</button>
+				<button class="keys">T</button>
+				<button class="keys">Y</button>
+				<button class="keys">U</button>
+				<button class="keys">I</button>
+				<button class="keys">O</button>
+				<button class="keys">P</button>
+				<button class="keys">[</button>
+				<button class="keys">]</button>
+				<button class="keys slace">\</button>
+			</div>
+			<div class="row">
+				<button class="keys cap">caps lock</button>
+				<button class="keys">A</button>
+				<button class="keys">S</button>
+				<button class="keys">D</button>
+				<button class="keys">F</button>
+				<button class="keys">G</button>
+				<button class="keys">H</button>
+				<button class="keys">J</button>
+				<button class="keys">K</button>
+				<button class="keys">L</button>
+				<button class="keys">;</button>
+				<button class="keys">'</button>
+				<button class="keys ent-btn">return</button>
+			</div>
+			<div class="row">
+				<button class="keys shift_key shift_left">shift</button>
+				<button class="keys">Z</button>
+				<button class="keys">X</button>
+				<button class="keys">C</button>
+				<button class="keys">V</button>
+				<button class="keys">B</button>
+				<button class="keys">N</button>
+				<button class="keys">M</button>
+				<button class="keys">,</button>
+				<button class="keys">.</button>
+				<button class="keys">/</button>
+				<button class="keys shift_key shift_rigth">shift</button>
+			</div>
+			<div class="row">
+				<button class="keys fn">fn</button>
+				<button class="keys control">control</button>
+				<button class="keys option_key option_left">option</button>
+				<button class="keys command_key command_left">command</button>
+				<button class="keys space">spase</button>
+				<button class="keys command_key command_rigth">command</button>
+				<button class="keys option_key option_rigth">option</button>
+			</div>
+			<div class="arrow">
+				<button class="keys arrow_key arrow_left">left</button>
+				<button class="keys arrow_key arrow_down">down</button>
+				<button class="keys arrow_key arrow_rigth">rigth</button>
+				<button class="keys arrow_key arrow_up">up</button>
+			</div>
 		</div>
 	</div>
+	<script src="./skript.js"></script>
 </body>
 </html>

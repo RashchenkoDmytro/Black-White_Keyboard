@@ -1,14 +1,24 @@
 body{
 	background-color: rgb(0, 0, 0);
+	font-family: Arial, Helvetica, sans-serif;
+}
+.input{
+	width: 950px;
+	height: 70px;
+	margin: 50px 0 70px 200px;
+	border: 10px;
+	border-color: #80dc2a;
+	border-radius: 10px;
+	box-shadow: 10px 10px 15px #80dc2a, -10px -10px 15px #858383;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
 }
 .container{
-	margin: 160px 0 0 200px;
+	margin: 40px 0 0 200px;
 }
 .row{
 	width: 100%;
 	height: 60px;
-}
-.one,.two,.three,.four,.five{
 	margin: 10px 0 0 0;
 }
 button{
@@ -17,12 +27,12 @@ button{
 	height: 55px;
 	border: none;
 	background: rgb(0, 0, 0);
-	box-shadow: 5px 5px 10px #0a0a0a, -5px -5px 10px #858383;
+	box-shadow: 5px 5px 10px #80dc2a, -5px -5px 10px #858383;
 	font-size: 20px;
 	margin-left: 5px;
 	outline: none;
-	font-family: Arial, Helvetica, sans-serif;
 	border-radius: 20%;
+	cursor: pointer;
 }
 button:active{
 	box-shadow: 1px 1px 2px #858383, -1px -1px 2px #0a0a0a;
@@ -31,11 +41,7 @@ button:active{
 	width: 115px;
 	border-radius: 10px;
 }
-.tab{
-	width: 85px;
-	border-radius: 10px;
-}
-.slace{
+.tab,.slace{
 	width: 85px;
 	border-radius: 10px;
 }
@@ -47,15 +53,38 @@ button:active{
 	width: 135px;
 	border-radius: 10px;
 }
-.shift{
+.shift_key{
 	width: 150px;
 	border-radius: 10px;
 }
-.other{
+.fn,.control{
+	width: 58px;
+	border-radius: 10px;
+}
+.command_left,
+.command_rigth{
 	width: 82px;
 	border-radius: 10px;
 }
 .space{
-	width: 400px;
+	width: 312px;
 	border-radius: 10px;
+}
+.arrow_key{
+	margin-bottom: 5px;
+	width: 55px;
+	height: 27px;
+}
+.back,.tab,.cap,.ent-btn,.shift_key,.fn,.control,.option_key,.command_key,.arrow_key{
+	font-size: 15px;
+}
+.arrow{
+	position: absolute;
+	width: 210px;
+	left: 965px;
+	top: 520px;
+	padding: 190 54;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap-reverse;
 }
